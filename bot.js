@@ -17,5 +17,9 @@ client.on('message', message => {
   	}
 });
 
+const p = "prefix";
+client.on('message', msg => {
+
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
