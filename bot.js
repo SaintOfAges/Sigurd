@@ -16,10 +16,6 @@ client.on('message', message => {
     	message.reply('My Papa!');
   	}
 });
-
-if (msg.content.startsWith ("troll ")) {
-        msg.channel.sendMessage("Well Id be a + msg.content.substr("test ".length + p.length) + "! ");
-}
-                                
+            
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
