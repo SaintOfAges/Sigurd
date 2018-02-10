@@ -17,9 +17,9 @@ client.on('message', message => {
   	}
 });
 
-const p = "sig ";
-client.on('message', msg => {
-
-});
+if (msg.content.startsWith ("troll ")) {
+        msg.channel.sendMessage("Well Id be a + msg.content.substr("test ".length + p.length) + "! ");
+}
+                                
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
