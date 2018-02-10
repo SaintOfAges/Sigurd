@@ -17,7 +17,7 @@ client.on('message', message => {
   	}
 });
 
-const p = "prefix";
+const p = "sig ";
 client.on('message', msg => {
 
 });
