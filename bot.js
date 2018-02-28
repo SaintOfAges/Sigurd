@@ -39,5 +39,11 @@ client.on('message', message => {
     	message.reply('I feel homesick sometimes ;-;');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'Jacques') {
+    	message.reply('I didnt do anything!!!');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
